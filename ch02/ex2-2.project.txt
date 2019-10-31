@@ -1,0 +1,11 @@
+예제 2.2 예제 프로젝트 구조
+
+src/main
+|-- java
+|   |-- jpabook/start
+|           |-- JpaMain.java (실행 클래스)
+|           |-- Member.java  (회원 클래스)
+|-- resources
+|   |-- META-INF
+|       |-- persistence.xml  (JPA 설정 정보)
+pom.xml
