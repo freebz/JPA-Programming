@@ -1,0 +1,16 @@
+예제 4.2 DDL 콘솔 출력
+
+Hibernate:
+    drop table MEMBER if exists
+Hibernate:
+    create table MEMBER (
+        ID varchar(255) not null,
+	NAME varchar(255),
+	age integer,
+	roleType varchar(255)
+	createdDate timestamp,
+	lastModifiedDate timestamp,
+	description clob,
+	primary key (ID)
+)
+
