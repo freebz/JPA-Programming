@@ -1,0 +1,12 @@
+예제 10.7 JPQL 문법
+
+select_문 :: =
+    select_절
+    from_절
+    [where_절]
+    [groupby_절]
+    [having_절]
+    [orderby_절]
+
+update_문 :: = update_절 [where_절]
+delete_문 :: = delete_절 [where_절]

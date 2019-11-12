@@ -1,0 +1,4 @@
+예제 10.25 외부 조인 JPQL
+
+SELECT m
+FROM Member m LEFT [OUTER] JOIN m.team t

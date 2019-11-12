@@ -1,0 +1,3 @@
+<!-- 예제 10.43 상속한 방언 클래스 등록(persistence.xml) -->
+
+<property name="hibernate.dialect" value="hello.MyH2Dialect" />

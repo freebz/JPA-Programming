@@ -1,0 +1,13 @@
+<!-- 예제 10.121 Named 스토어드 프로시저 XML에 정의하기 -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://xmlns.jcp.org/xml/ns/persistence/orm"
+    version="2.1">
+
+    <named-stored-procedure-query name="multiply"
+       procedure-name="proc_multiply">
+       <parameter name="inParam" mode="IN" class="java.lang.Integer" />
+       <parameter name="outParam" mode="OUT" class="java.lang.Integer" />
+    </named-stored-procedure-query>
+
+</entity-mappings>
