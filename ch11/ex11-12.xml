@@ -1,0 +1,3 @@
+<!-- 예제 11.12 JPA 예외 변환 AOP 설정 -->
+
+<bean class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor"/>

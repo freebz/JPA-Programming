@@ -1,0 +1,5 @@
+<!-- 예제 11.11 트랜잭션 관리자 설정 -->
+
+<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+    <property name="dataSource" ref="dataSource"/>
+</bean>

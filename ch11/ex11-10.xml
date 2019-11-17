@@ -1,0 +1,8 @@
+<!-- 예제 11.10 데이터소스 설정 -->
+
+<bean id="dataSource" class="org.apache.tomcat.jdbc.pool.DataSource">
+    <property name="driverClassName" value="org.h2.Driver"/>
+    <property name="url" value="jdbc:h2:mem:jpashop"/>
+    <property name="username" value="sa"/>
+    <property name="password" value=""/>
+</bean>

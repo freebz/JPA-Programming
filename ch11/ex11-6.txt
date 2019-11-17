@@ -1,0 +1,18 @@
+예제 11.6 프로젝트 구조
+
+jpashop
+|-- src
+    |-- main (실행 코드)
+        |-- java      (자바 소스코드)
+	|   |-- jpabook
+	|       |-- jpashop
+	|           |-- domain      //도메인 계층
+	|           |-- repository  //데이터 저장 계층
+	|           |-- service     //서비스 계층
+	|           |-- web         //웹 계층
+	|-- resources (리소스)
+	|   |-- appConfig.xml    //3. 스프링 애플리케이션 관련 설정
+	|   |-- webAppConfig.xml //2. 스프링 웹 관련 설정
+	|-- webapp    (웹 폴더)
+	    |-- WEB-INF
+	        |-- web.xml      //1. 웹 애플리케이션 환경설정 파일

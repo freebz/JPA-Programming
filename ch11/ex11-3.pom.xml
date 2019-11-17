@@ -1,0 +1,20 @@
+<!-- 예제 11.3 pom.xml -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<project...(생략)>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>jpabook</groupId>
+    <artifactId>jpashop</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>jpashop</name>
+    <packaging>war</packaging>
+
+    <dependencies>
+        ... 생략
+    </dependencies>
+
+    <build>
+        ... 생략
+    </build>
+</project>

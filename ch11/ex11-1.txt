@@ -1,0 +1,7 @@
+예제 11.1 메이븐 tomcat7:run 결과
+
+...
+[INFO] --- tomcat7-maven-plugin:2.2:run (default-cli) @ jpa-shop ---
+[INFO] Running war on http://localhost:8080/
+[INFO] Using existing Tomcat server configuration at /Users/hello/jpabook-source/ch11-jpa-shop/target/tomcat
+[INFO] create webapp with contextPath:

@@ -1,0 +1,9 @@
+<!-- 예제 11.43 webAppConfig.xml에 등록된 뷰 리졸버 -->
+
+<bean id="viewResolver" class="org.springframework.web.
+    servlet.view.InternalResourceViewResolver">
+    <property name="viewClass"
+        value="org.springframework.web.servlet.view.JstlView"/>
+    <property name="prefix" value="/WEB-INF/jsp/"/>
+    <property name="suffix" value=".jsp"/>
+</bean>

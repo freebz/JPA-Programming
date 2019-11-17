@@ -1,0 +1,10 @@
+예제 11.5 메이븐 package 결과
+
+[INFO] Building war: .../jpashop/target/jpashop.war
+[INFO] ----------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ----------------------------------------------------------
+[INFO] Total time: 2.550s
+[INFO] Finished at: Fri Dec 13 01:35:30 KST 2013
+[INFO] Final Memory: 8M/20M
+[INFO] ----------------------------------------------------------
