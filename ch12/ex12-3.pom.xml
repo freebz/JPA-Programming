@@ -1,0 +1,8 @@
+<!-- 예제 12.3 스프링 데이터 JPA 메이븐 라이브러리 설정 -->
+
+<!-- 스프링 데이터 JPA -->
+<dependency>
+    <groupId>org.springframework.data</groupId>
+    <artifactId>spring-data-jpa</artifactId>
+    <version>1.8.0.RELEASE</version>
+</dependency>

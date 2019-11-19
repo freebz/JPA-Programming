@@ -1,0 +1,9 @@
+<!-- 예제 12.9 orm.xml의 XML 사용 -->
+
+<named-query name="Member.findByUsername">
+    <query><CDATA[
+        select m
+	from Member m
+	where m.username = :username
+    ]></query>
+</named-query>
