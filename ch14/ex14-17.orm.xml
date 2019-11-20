@@ -1,0 +1,15 @@
+<!-- 예제 14.17 기본 리스너 등록 -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings ...>
+
+    <persistence-unit-metadata>
+	<persistence-unit-defaults>
+	    <entity-listeners>
+		<entity-listener class="jpabook.jpashop.domain.
+		    test.listener.DefaultListener" />
+	    </entity-listener>
+	</persistence-unit-defaults>
+    </persistence-unit-metadata>
+
+</entity-mappings>
