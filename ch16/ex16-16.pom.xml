@@ -1,0 +1,7 @@
+<!-- 예제 16.16 pom.xml에 hibernate-ehcache 추가 -->
+
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-ehcache</artifactId>
+    <version>4.3.10.Final</version>
+</dependency>

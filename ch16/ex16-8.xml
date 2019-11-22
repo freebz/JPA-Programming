@@ -1,0 +1,5 @@
+<!-- 예제 16.8 캐시 모드 스프링 프레임워크 XML 설정 -->
+
+<bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+    <property name="sharedCacheMode" value="ENABLE_SELECTIVE"/>
+    ...

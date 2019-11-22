@@ -1,0 +1,13 @@
+<!-- 예제 16.17 ehcache.xml 추가 -->
+
+<ehcache>
+    <defaultCache
+	maxElementsInMemory="10000"
+	eternal="false"
+	timeToIdleSeconds="1200"
+	timeToLiveSeconds="1200"
+	diskExpiryThreadIntervalSeocnds="1200"
+	memoryStoreEvictionPolicy="LRU"
+	/>
+
+</ehcache>

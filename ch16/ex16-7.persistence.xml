@@ -1,0 +1,5 @@
+<!-- 예제 16.7 persistence.xml에 캐시 모드 설정 -->
+
+<persistence-unit name="test">
+    <shared-cache-mode>ENABLE_SELECTIVE</shared-cache-mode>
+</persistence-unit>
